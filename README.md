@@ -17,4 +17,3 @@ Puedes ver los dashboards en el siguiente enlace:
 ## 🚀 ¿Cómo agregar más dashboards?  
 1. Edita `index.html` y añade un nuevo `<iframe>` con el enlace de Power BI.  
 2. Guarda los cambios y haz un commit en GitHub.  
-
