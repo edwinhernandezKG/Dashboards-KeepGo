@@ -1,6 +1,4 @@
-# 📊 Dashboards de Power BI en GitHub Pages
-
-Este repositorio contiene una página web que muestra dashboards de Power BI usando **GitHub Pages**.  
+# 📊 Dashboards de Power BI en GitHub Pages 
 
 ## 🌐 Acceso a la Página  
 Puedes ver los dashboards en el siguiente enlace:  
