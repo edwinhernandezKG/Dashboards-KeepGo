@@ -1,4 +1,4 @@
-# 📊 Dashboards de Power BI en GitHub Pages
+# 📊 Dashboards de Power BI 
 
 ## 📌 Dashboards Disponibles  
 1. **[Dashboard Clientes](https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMjEtYTk5NzAyODUyNTY2IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9)** – Análisis de clientes.  
