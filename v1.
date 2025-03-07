@@ -4,22 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboards de Power BI - V1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+        }
+        .dashboard {
+            margin: 20px 0;
+        }
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+            z-index: 1000;
+        }
+        .footer a {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
 </head>
 <body>
     <h1>Versión 1 - Dashboards de Power BI</h1>
-    
-    <!-- Dashboard Clientes -->
-    <h2>Dashboard Clientes</h2>
-    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMjEtYTk5NzAyODUyNTY2IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9" target="_blank">
-        <button>Ver Dashboard Clientes</button>
-    </a>
-    
-    <!-- Dashboard Interno -->
-    <h2>Dashboard Interno</h2>
-    <a href="https://app.powerbi.com/view?r=eyJrIjoiZjJhYTVmNGQtNmZiZC00MTYyLWI3OWQtNzM0YTkxNjU2NTkyIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9" target="_blank">
-        <button>Ver Dashboard Interno</button>
-    </a>
 
+    <!-- Dashboard Clientes -->
+    <div class="dashboard">
+        <h2>Dashboard Clientes</h2>
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMjEtYTk5NzAyODUyNTY2IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9" target="_blank">
+            <button>Ver Dashboard Clientes</button>
+        </a>
+    </div>
+
+    <!-- Dashboard Interno -->
+    <div class="dashboard">
+        <h2>Dashboard Interno</h2>
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiZjJhYTVmNGQtNmZiZC00MTYyLWI3OWQtNzM0YTkxNjU2NTkyIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9" target="_blank">
+            <button>Ver Dashboard Interno</button>
+        </a>
+    </div>
+
+    <!-- Marca de agua -->
+    <div class="footer">
+        Powered by <a href="https://www.keepgo.com/" target="_blank">KeepGo</a>
+    </div>
 </body>
 </html>
+
 
