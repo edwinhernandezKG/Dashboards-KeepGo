@@ -3,72 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Viewer</title>
-
-    <!-- CDN de Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dashboards de Power BI - V1</title>
     <style>
-        /* Asegura que la página ocupe todo el alto y ancho disponibles */
-        html, body {
-            height: 100%;
-            margin: 0;
-            font-size: 14px; /* Ajuste para pantalla más pequeña si es necesario */
+        body {
+            font-family: Arial, sans-serif;
         }
-        /* Estilos para el contenedor del contenido principal */
-        main {
-            height: calc(100vh - 70px); /* Ajuste para el encabezado */
-            padding: 16px;
+        h1 {
+            color: #333;
         }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border-radius: 8px;
+        .dashboard {
+            margin: 20px 0;
         }
-        /* Estilos para el encabezado */
-        header {
-            height: 60px;
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+            z-index: 1000;
+        }
+        .footer a {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.5);
         }
     </style>
 </head>
-<body class="bg-gray-100 flex flex-col">
+<body>
+    <h1>Versión 1 - Dashboards de Power BI</h1>
 
-    <!-- Panel Superior (Header) -->
-    <header class="bg-blue-600 text-white p-4 shadow-md flex justify-between items-center w-full fixed top-0 left-0 z-50">
-        <h1 class="text-xl font-semibold">Dashboard Viewer</h1>
-        <nav>
-            <ul class="flex space-x-6 text-lg">
-                <li><a href="#" class="hover:underline">Inicio</a></li>
-                <li><a href="#" class="hover:underline">Dashboards</a></li>
-                <li><a href="#" class="hover:underline">Configuración</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Dashboard Clientes -->
+    <div class="dashboard">
+        <h2>Dashboard Clientes</h2>
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMjEtYTk5NzAyODUyNTY2IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9" target="_blank">
+            <button>Ver Dashboard Clientes</button>
+        </a>
+    </div>
 
-    <!-- Contenido Principal -->
-    <main class="flex-1 mt-[60px] w-full">
-        <div class="bg-white p-6 rounded-lg shadow-lg h-full">
-            <h2 class="text-2xl font-bold mb-6">Cargar Dashboard</h2>
-            <div class="mb-6 space-x-4">
-                <button onclick="loadDashboard('clientes')" class="bg-blue-600 text-white px-4 py-2 text-lg rounded hover:bg-blue-700">Clientes</button>
-                <button onclick="loadDashboard('interno')" class="bg-blue-600 text-white px-4 py-2 text-lg rounded hover:bg-blue-700">Interno</button>
-                <button onclick="loadDashboard('keepgo')" class="bg-blue-600 text-white px-4 py-2 text-lg rounded hover:bg-blue-700">Pannel Keepgo</button>
-            </div>
-            <!-- Contenedor iframe para cargar los dashboards -->
-            <iframe id="dashboardFrame" src="" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </main>
+    <!-- Dashboard Interno -->
+    <div class="dashboard">
+        <h2>Dashboard Interno</h2>
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiZjJhYTVmNGQtNmZiZC00MTYyLWI3OWQtNzM0YTkxNjU2NTkyIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9" target="_blank">
+            <button>Ver Dashboard Interno</button>
+        </a>
+    </div>
 
-    <script>
-        // Función para cargar el dashboard seleccionado
-        function loadDashboard(type) {
-            var urls = {
-                'clientes': 'https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMjEtYTk5NzAyODUyNTY2IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9',
-                'interno': 'https://app.powerbi.com/view?r=eyJrIjoiZjJhYTVmNGQtNmZiZC00MTYyLWI3OWQtNzM0YTkxNjU2NTkyIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9',
-                'keepgo': 'https://app.powerbi.com/view?r=eyJrIjoiOTc3MjhjZDctNWRmNy00OGE4LTg3ZDUtMDYxMGI2Njg5MDg1IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9'
-            };
-            document.getElementById('dashboardFrame').src = urls[type];
-        }
-    </script>
+    <!-- Dashboard Pannel KeepGo -->
+    <div class="dashboard">
+        <h2>Dashboard Pannel KeepGo</h2>
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiOTc3MjhjZDctNWRmNy00OGE4LTg3ZDUtMDYxMGI2Njg5MDg1IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9&pageName=527e30742b4415e0ee60" target="_blank">
+            <button>Ver Dashboard Pannel KeepGo</button>
+        </a>
+    </div>
 
+    <!-- Marca de agua -->
+    <div class="footer">
+        Powered by <a href="https://www.keepgo.com/" target="_blank">KeepGo</a>
+    </div>
 </body>
 </html>
