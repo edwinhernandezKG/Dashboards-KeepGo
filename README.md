@@ -6,33 +6,34 @@
     <title>Dashboard Viewer</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100">
-    <div class="flex flex-col h-screen items-center">
-        <!-- Panel Superior -->
-        <header class="bg-blue-600 text-white p-6 shadow-md flex justify-between items-center w-full max-w-screen-xl">
-            <h1 class="text-2xl font-semibold">Dashboard Viewer</h1>
-            <nav>
-                <ul class="flex space-x-6 text-lg">
-                    <li><a href="#" class="hover:underline">Inicio</a></li>
-                    <li><a href="#" class="hover:underline">Dashboards</a></li>
-                    <li><a href="#" class="hover:underline">Configuración</a></li>
-                </ul>
-            </nav>
-        </header>
+<body class="bg-gray-100 flex flex-col h-screen items-center">
+    <!-- Panel Superior -->
+    <header class="bg-blue-600 text-white p-6 shadow-md flex justify-between items-center w-full max-w-screen-xl fixed top-0 left-0 right-0 z-50">
+        <h1 class="text-2xl font-semibold">Dashboard Viewer</h1>
+        <nav>
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="#" class="hover:underline">Inicio</a></li>
+                <li><a href="#" class="hover:underline">Dashboards</a></li>
+                <li><a href="#" class="hover:underline">Configuración</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <!-- Contenido Principal -->
-        <main class="flex-1 p-6 w-full max-w-screen-xl">
-            <div class="bg-white p-8 rounded-lg shadow-lg h-full">
-                <h2 class="text-2xl font-bold mb-6">Cargar Dashboard</h2>
-                <div class="mb-6 space-x-4">
-                    <button onclick="loadDashboard('clientes')" class="bg-blue-600 text-white px-4 py-2 text-lg rounded hover:bg-blue-700">Clientes</button>
-                    <button onclick="loadDashboard('interno')" class="bg-blue-600 text-white px-4 py-2 text-lg rounded hover:bg-blue-700">Interno</button>
-                    <button onclick="loadDashboard('keepgo')" class="bg-blue-600 text-white px-4 py-2 text-lg rounded hover:bg-blue-700">Pannel Keepgo</button>
-                </div>
-                <iframe id="dashboardFrame" class="w-full h-[75vh] border rounded-md" src="" frameborder="0" allowfullscreen></iframe>
+    <!-- Espacio para evitar que el contenido se esconda detrás del header -->
+    <div class="h-20"></div>
+
+    <!-- Contenido Principal -->
+    <main class="flex-1 p-6 w-full max-w-screen-xl">
+        <div class="bg-white p-8 rounded-lg shadow-lg h-full">
+            <h2 class="text-2xl font-bold mb-6">Cargar Dashboard</h2>
+            <div class="mb-6 space-x-4">
+                <button onclick="loadDashboard('clientes')" class="bg-blue-600 text-white px-4 py-2 text-lg rounded hover:bg-blue-700">Clientes</button>
+                <button onclick="loadDashboard('interno')" class="bg-blue-600 text-white px-4 py-2 text-lg rounded hover:bg-blue-700">Interno</button>
+                <button onclick="loadDashboard('keepgo')" class="bg-blue-600 text-white px-4 py-2 text-lg rounded hover:bg-blue-700">Pannel Keepgo</button>
             </div>
-        </main>
-    </div>
+            <iframe id="dashboardFrame" class="w-full h-[75vh] border rounded-md" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </main>
 
     <script>
         function loadDashboard(type) {
