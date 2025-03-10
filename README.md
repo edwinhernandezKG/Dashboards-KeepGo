@@ -8,16 +8,14 @@
     <!-- CDN de Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Asegura que la página se ajuste completamente al ancho y alto */
         html, body {
             height: 100%;
             margin: 0;
-            overflow: hidden;
-            font-size: 14px; /* Reducir un poco el tamaño de la fuente */
+            font-size: 14px;
         }
         main {
-            height: calc(100vh - 70px); /* Ajuste al tamaño del header */
-            padding: 16px; /* Espaciado interno */
+            height: calc(100vh - 70px);
+            padding: 16px;
         }
         iframe {
             width: 100%;
@@ -25,7 +23,7 @@
             border-radius: 8px;
         }
         header {
-            height: 60px; /* Reducir la altura del encabezado */
+            height: 60px;
         }
     </style>
 </head>
@@ -59,14 +57,5 @@
     <script>
         function loadDashboard(type) {
             var urls = {
-                'clientes': 'https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMjEtYTk5NzAyODUyNTY2IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9',
-                'interno': 'https://app.powerbi.com/view?r=eyJrIjoiZjJhYTVmNGQtNmZiZC00MTYyLWI3OWQtNzM0YTkxNjU2NTkyIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9',
-                'keepgo': 'https://app.powerbi.com/view?r=eyJrIjoiOTc3MjhjZDctNWRmNy00OGE4LTg3ZDUtMDYxMGI2Njg5MDg1IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9'
-            };
-            document.getElementById('dashboardFrame').src = urls[type];
-        }
-    </script>
-
-</body>
-</html>
+                'clientes': 'https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMj
 
