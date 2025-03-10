@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Viewer</title>
+
+    <!-- Configuración de Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {},
+            }
+        };
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Ajuste para ocupar toda la pantalla */
@@ -54,5 +63,6 @@
             document.getElementById('dashboardFrame').src = urls[type];
         }
     </script>
+
 </body>
 </html>
