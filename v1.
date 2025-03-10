@@ -8,13 +8,15 @@
     <!-- CDN de Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        /* Asegura que la página ocupe todo el alto y ancho disponibles */
         html, body {
             height: 100%;
             margin: 0;
-            font-size: 14px;
+            font-size: 14px; /* Ajuste para pantalla más pequeña si es necesario */
         }
+        /* Estilos para el contenedor del contenido principal */
         main {
-            height: calc(100vh - 70px);
+            height: calc(100vh - 70px); /* Ajuste para el encabezado */
             padding: 16px;
         }
         iframe {
@@ -22,6 +24,7 @@
             height: 100%;
             border-radius: 8px;
         }
+        /* Estilos para el encabezado */
         header {
             height: 60px;
         }
@@ -50,12 +53,22 @@
                 <button onclick="loadDashboard('interno')" class="bg-blue-600 text-white px-4 py-2 text-lg rounded hover:bg-blue-700">Interno</button>
                 <button onclick="loadDashboard('keepgo')" class="bg-blue-600 text-white px-4 py-2 text-lg rounded hover:bg-blue-700">Pannel Keepgo</button>
             </div>
+            <!-- Contenedor iframe para cargar los dashboards -->
             <iframe id="dashboardFrame" src="" frameborder="0" allowfullscreen></iframe>
         </div>
     </main>
 
     <script>
+        // Función para cargar el dashboard seleccionado
         function loadDashboard(type) {
             var urls = {
-                'clientes': 'https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMj
+                'clientes': 'https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMjEtYTk5NzAyODUyNTY2IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9',
+                'interno': 'https://app.powerbi.com/view?r=eyJrIjoiZjJhYTVmNGQtNmZiZC00MTYyLWI3OWQtNzM0YTkxNjU2NTkyIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9',
+                'keepgo': 'https://app.powerbi.com/view?r=eyJrIjoiOTc3MjhjZDctNWRmNy00OGE4LTg3ZDUtMDYxMGI2Njg5MDg1IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9'
+            };
+            document.getElementById('dashboardFrame').src = urls[type];
+        }
+    </script>
 
+</body>
+</html>
