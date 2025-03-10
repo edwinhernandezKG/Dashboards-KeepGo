@@ -48,11 +48,18 @@
         </a>
     </div>
 
+    <!-- Dashboard Pannel KeepGo -->
+    <div class="dashboard">
+        <h2>Dashboard Pannel KeepGo</h2>
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiOTc3MjhjZDctNWRmNy00OGE4LTg3ZDUtMDYxMGI2Njg5MDg1IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9&pageName=527e30742b4415e0ee60" target="_blank">
+            <button>Ver Dashboard Pannel KeepGo</button>
+        </a>
+    </div>
+
     <!-- Marca de agua -->
     <div class="footer">
         Powered by <a href="https://www.keepgo.com/" target="_blank">KeepGo</a>
     </div>
 </body>
 </html>
-
 
