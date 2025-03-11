@@ -50,11 +50,12 @@
             width: 100%;
             height: 100%;
             border: none;
+            allowfullscreen: true;
         }
     </style>
     <script>
         function loadDashboard(url) {
-            document.getElementById('dashboardFrame').src = url;
+            document.getElementById('dashboardFrame').src = url + "&navContentPaneEnabled=false";
         }
     </script>
 </head>
@@ -67,8 +68,9 @@
             <a href="#" onclick="loadDashboard('https://app.powerbi.com/view?r=eyJrIjoiOTc3MjhjZDctNWRmNy00OGE4LTg3ZDUtMDYxMGI2Njg5MDg1IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9')">Dashboard Pannel KeepGo</a>
         </div>
         <div class="content">
-            <iframe id="dashboardFrame" src=""></iframe>
+            <iframe id="dashboardFrame" allowfullscreen></iframe>
         </div>
     </div>
 </body>
 </html>
+
