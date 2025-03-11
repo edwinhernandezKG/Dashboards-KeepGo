@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -62,14 +63,6 @@
     <div class="content">
         <h2>📊 Acerca del Proyecto</h2>
         <p>Este proyecto proporciona una interfaz web para visualizar dashboards de Power BI en una sola pestaña, mejorando la experiencia del usuario y facilitando el acceso a la información.</p>
-        
-        <h2>🚀 Características</h2>
-        <ul>
-            <li>Visualización de dashboards directamente en la página mediante `iframe`.</li>
-            <li>Diseño moderno y responsivo con CSS.</li>
-            <li>Organización eficiente con un layout flexible.</li>
-            <li>Incluye enlaces directos a los dashboards de Power BI.</li>
-        </ul>
     </div>
 
     <div class="dashboard-container">
@@ -88,20 +81,12 @@
             <iframe src="https://app.powerbi.com/view?r=eyJrIjoiOTc3MjhjZDctNWRmNy00OGE4LTg3ZDUtMDYxMGI2Njg5MDg1IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9&pageName=527e30742b4415e0ee60"></iframe>
         </div>
     </div>
-
-    <div class="content">
-        <h2>🛠 Instalación y Uso</h2>
-        <ol>
-            <li>Clona este repositorio:</li>
-            <pre><code>git clone https://github.com/tu-repo/dashboards-powerbi.git</code></pre>
-            <li>Abre el archivo <code>index.html</code> en tu navegador.</li>
-            <li>Disfruta de los dashboards sin salir de la pestaña.</li>
-        </ol>
-    </div>
     
     <div class="footer">
         Powered by <a href="https://www.keepgo.com/" target="_blank">KeepGo</a>
     </div>
 </body>
 </html>
+
+
 
