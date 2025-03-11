@@ -62,9 +62,9 @@
     <div class="top-panel">Repositorio de Dashboards</div>
     <div class="container">
         <div class="sidebar">
-            <a href="#" onclick="loadDashboard('https://app.powerbi.com/view?r=dashboard1')">Dashboard 1</a>
-            <a href="#" onclick="loadDashboard('https://app.powerbi.com/view?r=dashboard2')">Dashboard 2</a>
-            <a href="#" onclick="loadDashboard('https://app.powerbi.com/view?r=dashboard3')">Dashboard 3</a>
+            <a href="#" onclick="loadDashboard('https://app.powerbi.com/view?r=eyJrIjoiZjJhYTVmNGQtNmZiZC00MTYyLWI3OWQtNzM0YTkxNjU2NTkyIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9')">Dashboard Interno</a>
+            <a href="#" onclick="loadDashboard('https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMjEtYTk5NzAyODUyNTY2IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9')">Dashboard Clientes</a>
+            <a href="#" onclick="loadDashboard('https://app.powerbi.com/view?r=eyJrIjoiOTc3MjhjZDctNWRmNy00OGE4LTg3ZDUtMDYxMGI2Njg5MDg1IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9')">Dashboard Pannel KeepGo</a>
         </div>
         <div class="content">
             <iframe id="dashboardFrame" src=""></iframe>
