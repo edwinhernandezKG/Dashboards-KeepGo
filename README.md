@@ -21,54 +21,32 @@
         }
         .container {
             display: flex;
+            flex-direction: column;
             flex: 1;
-        }
-        .sidebar {
-            width: 250px;
-            background: #f4f4f4;
             padding: 15px;
+            gap: 15px;
+        }
+        .dashboard-container {
+            flex: 1;
             display: flex;
             flex-direction: column;
-        }
-        .sidebar a {
-            padding: 10px;
-            text-decoration: none;
-            color: #333;
-            display: block;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            background: #ddd;
-        }
-        .sidebar a:hover {
-            background: #bbb;
-        }
-        .content {
-            flex: 1;
-            padding: 15px;
+            gap: 10px;
         }
         iframe {
             width: 100%;
-            height: 100%;
+            height: 33vh;
             border: none;
             allowfullscreen: true;
         }
     </style>
-    <script>
-        function loadDashboard(url) {
-            document.getElementById('dashboardFrame').src = url + "&navContentPaneEnabled=false";
-        }
-    </script>
 </head>
 <body>
     <div class="top-panel">Repositorio de Dashboards</div>
     <div class="container">
-        <div class="sidebar">
-            <a href="#" onclick="loadDashboard('https://app.powerbi.com/view?r=eyJrIjoiZjJhYTVmNGQtNmZiZC00MTYyLWI3OWQtNzM0YTkxNjU2NTkyIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9')">Dashboard Interno</a>
-            <a href="#" onclick="loadDashboard('https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMjEtYTk5NzAyODUyNTY2IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9')">Dashboard Clientes</a>
-            <a href="#" onclick="loadDashboard('https://app.powerbi.com/view?r=eyJrIjoiOTc3MjhjZDctNWRmNy00OGE4LTg3ZDUtMDYxMGI2Njg5MDg1IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9')">Dashboard Pannel KeepGo</a>
-        </div>
-        <div class="content">
-            <iframe id="dashboardFrame" allowfullscreen></iframe>
+        <div class="dashboard-container">
+            <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZjJhYTVmNGQtNmZiZC00MTYyLWI3OWQtNzM0YTkxNjU2NTkyIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9&navContentPaneEnabled=false" allowfullscreen></iframe>
+            <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzY1NGJjNWQtYjFjYy00MTQwLWJlMjEtYTk5NzAyODUyNTY2IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9&navContentPaneEnabled=false" allowfullscreen></iframe>
+            <iframe src="https://app.powerbi.com/view?r=eyJrIjoiOTc3MjhjZDctNWRmNy00OGE4LTg3ZDUtMDYxMGI2Njg5MDg1IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9&navContentPaneEnabled=false" allowfullscreen></iframe>
         </div>
     </div>
 </body>
