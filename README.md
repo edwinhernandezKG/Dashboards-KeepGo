@@ -1,6 +1,7 @@
+## <img src="https://i.postimg.cc/tTD72y2F/c947d0-eadc0d6e3f3c4184a5f64991dc4338a1-mv2-removebg-preview.png" width="200"/>  
+
 # 📊 Dashboards de Power BI 
 
-## <img src="https://i.postimg.cc/tTD72y2F/c947d0-eadc0d6e3f3c4184a5f64991dc4338a1-mv2-removebg-preview.png" width="200"/>  
 ## 📌 Dashboards Disponibles  
 
 ### 1️⃣ Dashboard Clientes  
