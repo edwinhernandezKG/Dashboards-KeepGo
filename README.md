@@ -7,7 +7,7 @@
 ### 1️⃣ Dashboard Clientes  
 🔹 Análisis de clientes.  
 🔹 **Vista Previa:**  
-[![Vista previa](https://i.postimg.cc/fL2B6RZH/image.jpg)](https://app.powerbi.com/view?r=eyJrIjoiZmEwOWFhMmYtOWYzYy00NWIwLTkyNjEtN2QwY2Y1OGUyNTZkIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9)
+[![Vista previa](https://i.postimg.cc/fL2B6RZH/image.jpg)](https://app.powerbi.com/view?r=eyJrIjoiNDAxOGUyZmMtYmFkNS00NjNhLTliMjEtMWRkZWRhMjlkMDIyIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9)
 🔹 **Haz clic para abrir el dashboard.**
 
 ---
