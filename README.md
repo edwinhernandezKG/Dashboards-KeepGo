@@ -15,7 +15,7 @@
 ### 2️⃣ Dashboard Interno  
 🔹 Datos internos de la empresa.  
 🔹 **Vista Previa:**  
-[![Vista previa](https://i.postimg.cc/D0d4VLv4/image-2.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDI1NGM1ZmEtNjUwZC00NDQ0LWJmMjMtYzgwOTUxM2EwMzBiIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9)
+[![Vista previa](https://i.postimg.cc/7ht090Fk/image-5.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDI1NGM1ZmEtNjUwZC00NDQ0LWJmMjMtYzgwOTUxM2EwMzBiIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9)
 🔹 **Haz clic para abrir el dashboard.**
 
 ---
@@ -23,7 +23,7 @@
 ### 3️⃣ Dashboard Pannel KeepGo  
 🔹 Datos de Pannel KeepGo.  
 🔹 **Vista Previa:**  
-[![Vista previa](https://i.postimg.cc/D0d4VLv4/image-2.jpg)]()
+[![Vista previa](https://i.postimg.cc/D0d4VLv4/image-2.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDI1NGM1ZmEtNjUwZC00NDQ0LWJmMjMtYzgwOTUxM2EwMzBiIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9)
 🔹 **Haz clic para abrir el dashboard.**
 
 ---
