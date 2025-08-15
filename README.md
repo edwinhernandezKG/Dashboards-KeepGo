@@ -27,6 +27,10 @@
     background: #30363d;
     margin: 20px 0;
   }
+  /* Subir el widget de WhatsApp para que no tape el chatbot */
+  .lb-whatsapp-widget {
+    bottom: 80px !important;
+  }
 </style>
 </head>
 <body>
@@ -84,9 +88,6 @@
     };
   </script>
   <script src="https://static.landbot.io/livechat-widget/index.js" defer></script>
-
-  <!-- Separador para que no queden juntos -->
-  <div style="height: 20px;"></div>
 
   <!-- Landbot Chatbot -->
   <script>
