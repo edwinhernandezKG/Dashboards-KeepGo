@@ -1,31 +1,89 @@
-## <img src="https://i.postimg.cc/tTD72y2F/c947d0-eadc0d6e3f3c4184a5f64991dc4338a1-mv2-removebg-preview.png" width="200"/>  
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboards Power BI</title>
+<style>
+  body {
+    background-color: #0d1117;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  a {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  img {
+    border-radius: 8px;
+  }
+  hr {
+    border: 0;
+    height: 1px;
+    background: #30363d;
+    margin: 20px 0;
+  }
+</style>
+</head>
+<body>
 
-# 📊 Dashboards de Power BI 
+  <img src="https://i.postimg.cc/tTD72y2F/c947d0-eadc0d6e3f3c4184a5f64991dc4338a1-mv2-removebg-preview.png" width="200"/>  
 
-## 📌 Dashboards Disponibles  
+  <h1>📊 Dashboards de Power BI</h1>
 
-### 1️⃣ Dashboard Clientes  
-🔹 Análisis de clientes.  
-🔹 **Vista Previa:**  
-[![Vista previa](https://i.ibb.co/0RMBsNJ1/image.jpg)](https://app.powerbi.com/view?r=eyJrIjoiOGMyMDc4OTItMGQ5Ny00OTcxLWIzYjctMDZlN2I3YzNiMmE0IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9)
-🔹 **Haz clic para abrir el dashboard.**
+  <h2>📌 Dashboards Disponibles</h2>
 
----
+  <h3>1️⃣ Dashboard Clientes</h3>
+  🔹 Análisis de clientes.<br>
+  🔹 <strong>Vista Previa:</strong><br>
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiOGMyMDc4OTItMGQ5Ny00OTcxLWIzYjctMDZlN2I3YzNiMmE0IiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9" target="_blank">
+    <img src="https://i.postimg.cc/s2Ckk8nF/image.png" width="400">
+  </a><br>
+  🔹 <strong>Haz clic para abrir el dashboard.</strong>
 
-### 2️⃣ Dashboard Interno  
-🔹 Datos internos de la empresa.  
-🔹 **Vista Previa:**  
-[![Vista previa](https://i.postimg.cc/7ht090Fk/image-5.jpg)](https://app.powerbi.com/view?r=eyJrIjoiY2VhYzdkZmMtZDY1NS00YTkwLTkwNTQtNTVjOWJkZDcyYjNhIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9)
-🔹 **Haz clic para abrir el dashboard.**
+  <hr>
 
----
+  <h3>2️⃣ Dashboard Interno</h3>
+  🔹 Datos internos de la empresa.<br>
+  🔹 <strong>Vista Previa:</strong><br>
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiY2VhYzdkZmMtZDY1NS00YTkwLTkwNTQtNTVjOWJkZDcyYjNhIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9" target="_blank">
+    <img src="https://i.postimg.cc/7ht090Fk/image-5.jpg" width="400">
+  </a><br>
+  🔹 <strong>Haz clic para abrir el dashboard.</strong>
 
-### 3️⃣ Dashboard Pannel KeepGo  
-🔹 Datos de Pannel KeepGo.  
-🔹 **Vista Previa:**  
-[![Vista previa](https://i.postimg.cc/D0d4VLv4/image-2.jpg)](https://app.powerbi.com/view?r=eyJrIjoiZmM4OGU2MWQtZDRhZS00YzU4LWEzMWEtMTBhMjhlYmY0MzQzIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9)
-🔹 **Haz clic para abrir el dashboard.**
+  <hr>
 
----
+  <h3>3️⃣ Dashboard Pannel KeepGo</h3>
+  🔹 Datos de Pannel KeepGo.<br>
+  🔹 <strong>Vista Previa:</strong><br>
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiZmM4OGU2MWQtZDRhZS00YzU4LWEzMWEtMTBhMjhlYmY0MzQzIiwidCI6ImIxM2NlNGM5LTJiZTYtNDg0NC04Y2Q5LTYwOTcyMGFmYWY5YiJ9" target="_blank">
+    <img src="https://i.postimg.cc/D0d4VLv4/image-2.jpg" width="400">
+  </a><br>
+  🔹 <strong>Haz clic para abrir el dashboard.</strong>
 
-### Powered by KeepGo  
+  <hr>
+
+  <p><strong>Powered by KeepGo</strong></p>
+
+  <!-- Landbot WhatsApp Widget -->
+  <script>
+    window.lbWhatsappWidgetSettings = {
+      "avatar_url": "https://storage.googleapis.com/media.landbot.io/774092/web_widget/fda0ccf0-194f-4b2c-9767-aebec1097b01/avatar/avatar.jpg?1752104288765",
+      "brand_name": "STRATECH Mesa de Servicio",
+      "button_background_color": "#0f0c0c",
+      "button_rounded_corners": "4",
+      "button_text": "Envianos Un Mensaje!",
+      "cta_text": "¡Iniciar Chat!",
+      "input_color": "#0f0c0c",
+      "welcome_text": "💬 ¡Hola, bienvenido/a a STRATECH! 🚀",
+      "wa_phone": "5215651138365"
+    };
+  </script>
+  <script src="https://static.landbot.io/livechat-widget/index.js" defer></script>
+
+</body>
+</html>
