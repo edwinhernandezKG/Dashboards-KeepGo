@@ -78,7 +78,7 @@
       "button_rounded_corners": "4",
       "button_text": "Envianos Un Mensaje!",
       "cta_text": "¡Iniciar Chat!",
-      "input_color": "#0f0c0c",
+      "input_color": "#000000",
       "welcome_text": "💬 ¡Hola, bienvenido/a a STRATECH! 🚀",
       "wa_phone": "5215651138365"
     };
