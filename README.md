@@ -27,9 +27,9 @@
     background: #30363d;
     margin: 20px 0;
   }
-  /* Subir el widget de WhatsApp para que no tape el chatbot */
+  /* Subir el widget de WhatsApp unos 5 cm (190px aprox) */
   .lb-whatsapp-widget {
-    bottom: 80px !important;
+    bottom: 190px !important;
   }
 </style>
 </head>
